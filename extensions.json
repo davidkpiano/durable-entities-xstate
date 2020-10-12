@@ -1,0 +1,19 @@
+[
+  {
+    "id": "Microsoft.Azure.WebJobs.Extensions.Storage",
+    "version": "3.0.10",
+    "name": "AzureStorage",
+    "bindings": ["blobtrigger", "queue", "queuetrigger", "table", "blob"]
+  },
+  {
+    "id": "Microsoft.Azure.WebJobs.Extensions.DurableTask",
+    "version": "2.2.0",
+    "name": "DurableTask",
+    "bindings": [
+      "activitytrigger",
+      "orchestrationtrigger",
+      "entitytrigger",
+      "durableclient"
+    ]
+  }
+]
