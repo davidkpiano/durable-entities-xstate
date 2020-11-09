@@ -2,6 +2,15 @@
 
 XState + Durable Entities = 🚀
 
+## Prerequisites
+
+- Ensure you have all the prerequisites satisfied [in the Azure Functions documentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local).
+- Install the `DurableTask` extension:
+  ```
+  func extensions install --package Microsoft.Azure.WebJobs.Extensions.DurableTask -v 2.3.1
+  ```
+- Copy the `local.settings.template.json` file and rename to `local.settings.json`, and configure the `AzureWebJobsStorage` value to be a valid storage connection string. [See the documentation for more info](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#local-settings-file)
+
 ## Quick Start
 
 1. Run `npm install` to install the required dependencies.
